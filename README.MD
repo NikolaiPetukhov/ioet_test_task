@@ -103,7 +103,7 @@ Example 1:
 RENE-ASTRID: 2
 RENE-ANDRES: 2
 ASTRID-ANDRES: 3
-Example 3:
+Example 2:
 RENE-ASTRID: 3
 ```
 
