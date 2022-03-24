@@ -2,3 +2,6 @@
 __pycache__/
 *.py[cod]
 *$py.class
+
+!input.txt
+!multiple_inputs.txt
