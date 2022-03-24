@@ -129,12 +129,12 @@ would be transformed to
     ...
 }
 ```
-*SU20:00-20:30 and SU20:30-21:30 where merged to (6,1200,1260)  
+*SU20:00-20:30 and SU20:30-21:30 were merged to (6,1200,1260)  
 
 
 ### Step 2: Iterate over all pairs of names and count coincidences
 
-In a double for-loop program iterates over all pairs of names and for each pair it iterates over all pairs of timeframs in a double for-loop and counts its intersections. Two frames are considered intersected if:  
+In a double for-loop program iterates over all pairs of names and for each pair it iterates over all pairs of timeframes in a double for-loop and counts its intersections. Two frames are considered intersected if:  
 1) Its days are equal and one of timeframes start is more than or equal to other timeframe finish.
 2) One timeframes day is less by 1 than the other timeframe day and finish time of its timeframe is 1440(24:00) and start time of the other timeframe is 0(00:00).  
 Example:  
